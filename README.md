@@ -11,11 +11,15 @@ This is A CLI based simple credit card manager based on Beginner to intermediate
 ## Mechanism :
 The application runs in a loop, allowing the user to:
 
-Deposit money
-Make a payment
-View current balance
-View card summary
-Exit the program
+1.Deposit money
+
+2.Make a payment
+
+3.View current balance
+
+4.View card summary
+
+5.Exit the program
 
 It uses simple console input/output to simulate real-world interactions. The loop only stops when the user chooses to exit (-1 or option 5), ensuring continuous usage like a true banking system.
 
