@@ -1,4 +1,4 @@
-# creditWallet_CLI - by Ishan Samanta (CSE -AI & ROBOTICS // B.Tech// University Of Engineering and Management, Kolkata)SESSION : 2025-2029
+# creditBanking_CLI - by Ishan Samanta (CSE -AI & ROBOTICS // B.Tech// University Of Engineering and Management, Kolkata)SESSION : 2025-2029
 This is A CLI based simple credit card manager based on Beginner to intermediate OOP fundamentals (Python). This code is written in python and is under rigorous development and new features will be updated regularly.
 # CONCEPTS INCLUDED :
 💡 Concepts Used
