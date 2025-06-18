@@ -25,4 +25,6 @@ It uses simple console input/output to simulate real-world interactions. The loo
 
 A simple self made project which is under development and will continuously be updated.
 Thank you
+# WORK LOGS:
 ## First publishing date : 18th June, 2025 , time : <4:27 pm>
+## UPDATE AND NEW FILE RECEIVED + BUG FIXED  : 18TH JUNE,2025
