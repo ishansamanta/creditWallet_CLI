@@ -25,6 +25,19 @@ It uses simple console input/output to simulate real-world interactions. The loo
 
 A simple self made project which is under development and will continuously be updated.
 Thank you
+# ----------------------------------------------------------------------------------------------------------------------------------
 # WORK LOGS:
 ## First publishing date : 18th June, 2025 , time : <4:27 pm>
 ## UPDATE AND NEW FILE RECEIVED + BUG FIXED  : 18TH JUNE,2025
+## MAJOR SECURITY UPDATE: Banking.py ---> Banking_V-02.py \\\ 21st June, 2025 
+### 🛡️ Security Improvements in `Banking_V-02.py` (Patch Update) \\\ 21st June, 2025
+
+###  Comparison: `Banking.py` → `Banking_V-02.py`\\\ 21st June, 2025
+
+|  Feature             | ❌ Before                                     | ✅ After                                                   |
+|------------------------|----------------------------------------------|------------------------------------------------------------|
+| **PIN Verification**   | No PIN required for deposit or withdrawal    | Required before deposit and withdrawal (access controlled) |
+| **Private Data**       | `self.pin` was public                        | `__pin` made private, accessed via property                |
+| **Logical Access Flow**| Unchecked operations                         | PIN-based access gating implemented                        |
+| **OOP Practices**      | Partial encapsulation                        | Proper encapsulation using properties and private members  |
+
