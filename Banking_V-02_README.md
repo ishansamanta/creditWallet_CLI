@@ -4,6 +4,5 @@
 ## Private Data	- ❌Before(self.pin was public) ✅After(__pin is private, accessed safely via property)
 ## Logical Access Flow	-❌Before(Unchecked operations) ✅After(Controlled with access gates (PIN))
 ## OOP Practice	-❌Before(Partial)  ✅After(Now fully utilizes encapsulation & properties)
-###Video explanation of the Project Banking_V-02.py ---> 
-
+### Video explanation of the Project Banking_V-02.py ---> Check it out!!!!!!!
 https://youtu.be/cbth10L-Nro?feature=shared
