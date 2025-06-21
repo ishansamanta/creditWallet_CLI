@@ -41,3 +41,5 @@ Thank you
 | **Logical Access Flow**| Unchecked operations                         | PIN-based access gating implemented                        |
 | **OOP Practices**      | Partial encapsulation                        | Proper encapsulation using properties and private members  |
 
+### 🎥 Project Banking_V-02.py explanation link provided in Banking_V-02Readme.md file . Here is the youtube link : https://youtu.be/cbth10L-Nro?feature=shared \\\21ST June, 2025
+
