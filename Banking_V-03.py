@@ -10,29 +10,29 @@ class Banking:
         return self.__pin
     
     def money_deposit(self):
-        print("💵 Deposit Money")
+        print(" Deposit Money")
         print("Enter your pin to deposit money:")
         pin_inp = input()
         if pin_inp != self.pin:
-            print("❌ Incorrect pin entered. Access denied.")
+            print(" Incorrect pin entered. Access denied.")
             return False
         else:
-            print("✅ Pin verified. You can now deposit money. \nEnter your amount to be deposited:")
+            print(" Pin verified. You can now deposit money. \nEnter your amount to be deposited:")
            
         
             print()
             balance = int(input())
             if balance <= 0:
-             print("❌ Invalid amount enterred for deposition .")
+             print(" Invalid amount enterred for deposition .")
              return False
        
             else:
               self.balance += balance
-              print(f"✅ Money deposited to the bank of ₹{balance}. New balance: ₹{self.balance}")
+              print(f" Money deposited to the bank of ₹{balance}. New balance: ₹{self.balance}")
               return True
 
     def get_balance(self):
-        print(f"💰 Current balance: ₹{self.balance}")
+        print(f" Current balance: ₹{self.balance}")
         return self.balance
     @property
     def summary(self):
@@ -50,32 +50,32 @@ class Banking:
         pin_inp = input()
       
         if pin_inp != self.pin:
-            print("❌ Incorrect pin entered. Access denied.")
+            print(" Incorrect pin entered. Access denied.")
             return False
         else:
-            print("✅ Pin verified. You can now withdraw money.")
+            print(" Pin verified. You can now withdraw money.")
             
 
             print("Enter withdrawal amount (or -1 to exit):")
             amount = int(input())
         
             if amount == -1:
-             print("🔁 Exiting transaction loop.")
+             print(" Exiting transaction loop.")
              return False
             elif amount <= 0:
-             print("❌ INVALID AMOUNT.")
+             print(" INVALID AMOUNT.")
             elif amount > self.balance:
-             print("❌ Withdrawal amount exceeds balance.")
+             print(" Withdrawal amount exceeds balance.")
             elif self.balance - amount <= 0.1 * self.balance: 
-              print("⚠️ Warning: You are near your credit limit!")
+              print(" Warning: You are near your credit limit!")
               self.balance -= amount
-              print(f"✅ Withdrawal of ₹{amount} successful. New balance: ₹{self.balance}")
-              print("💸 Transaction Successful")
+              print(f" Withdrawal of ₹{amount} successful. New balance: ₹{self.balance}")
+              print(" Transaction Successful")
             else:  
              self.balance -= amount
-             print(f"✅ Withdrawal of ₹{amount} successful. New balance: ₹{self.balance}")
+             print(f" Withdrawal of ₹{amount} successful. New balance: ₹{self.balance}")
              
-             print("💸 Transaction Successful")
+             print(" Transaction Successful")
        
 
 card = Banking("Ishan", "CodeBank", "4444 9999 6666")
@@ -107,10 +107,10 @@ while True:
         if pin_inp == card.pin:
             print(f"Your pin is: {card.pin}")
         else:
-            print("❌ Incorrect pin entered. Access denied.")
+            print(" Incorrect pin entered. Access denied.")
         
     elif choice == '6':
-        print("👋 Exiting. Thank you!")
+        print(" Exiting. Thank you!")
         break
     else:
-        print("❌ INVALID CHOICE. Please enter a number from 1 to 6.")
+        print(" INVALID CHOICE. Please enter a number from 1 to 6.")
