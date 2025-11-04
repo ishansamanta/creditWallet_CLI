@@ -10,16 +10,16 @@ class Banking:
         print("Enter your amount to be deposited:")
         balance = int(input())
         if balance <= 0:
-            print("❌ Invalid amount enterred for deposition .")
+            print(" Invalid amount enterred for deposition .")
             return False
        
         else:
             self.balance += balance
-            print(f"✅ Money deposited to the bank of ₹{balance}. New balance: ₹{self.balance}")
+            print(f" Money deposited to the bank of ₹{balance}. New balance: ₹{self.balance}")
             return True
 
     def get_balance(self):
-        print(f"💰 Current balance: ₹{self.balance}")
+        print(f" Current balance: ₹{self.balance}")
         return self.balance
     
     def get_summary(self):
@@ -35,21 +35,21 @@ class Banking:
         amount = int(input())
         
         if amount == -1:
-            print("🔁 Exiting payment loop.")
+            print(" Exiting payment loop.")
             break
         elif amount <= 0:
-            print("❌ INVALID AMOUNT.")
+            print(" INVALID AMOUNT.")
         elif amount > self.balance:
-            print("❌ Payment exceeds balance.")
+            print(" Payment exceeds balance.")
         elif self.balance - amount <= 0.1 * self.balance: 
-            print("⚠️ Warning: You are near your credit limit!")
+            print(" Warning: You are near your credit limit!")
             self.balance -= amount
-            print(f"✅ Payment of ₹{amount} received. New balance: ₹{self.balance}")
-            print("💸Transaction Successful")
+            print(f" Payment of ₹{amount} received. New balance: ₹{self.balance}")
+            print("Transaction Successful")
         else:  
             self.balance -= amount
-            print(f"✅ Payment of ₹{amount} received. New balance: ₹{self.balance}")
-            print("💸Transaction Successful")
+            print(f" Payment of ₹{amount} received. New balance: ₹{self.balance}")
+            print("Transaction Successful")
            
            
     
